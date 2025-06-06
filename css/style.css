@@ -1,0 +1,113 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fff8f0;
+    color: #3e2c1c;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #8b5e3c;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 1em;
+  }
+  
+  nav a {
+    color: #ffe6c1;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  .produits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
+  .produits article {
+    background-color: #fbe9d0;
+    border: 1px solid #d8b58c;
+    padding: 1em;
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fef3e7;
+    padding: 2em;
+    border-radius: 8px;
+    border: 1px solid #e0c5a1;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    margin-top: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #a06f50;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #a06f50;
+    color: white;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1em;
+  }
+  
+  .btn:hover {
+    background-color: #b47f60;
+  }
+  
+  footer {
+    background-color: #8b5e3c;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
+  }
+  
